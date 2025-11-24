@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de conhecimento</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1>Fundamentos de Processos Fermentativos</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Digite uma palavra-chave">
+            <button id="search-button" onclick="iniciarBusca()">Buscar</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="card-container"></section>
+        <section class="graficos">
+            <h2>Curva de Crescimento Microbiano</h2>
+            <canvas id="graficoCrescimento"></canvas>
+
+             <div class="botoes-fases">
+    <button onclick="destacarFase('lag')">Fase Lag</button>
+    <button onclick="destacarFase('expo')">Fase Exponencial</button>
+    <button onclick="destacarFase('estacionaria')">Fase Estacionária</button>
+    <button onclick="destacarFase('declinio')">Fase de Declínio</button>
+  </div>
+
+  <p id="descricaoFase" class="descricao-fase">
+    Clique em uma fase para destacá-la no gráfico.
+  </p>
+</section>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Fundamentos de Processos Fermentativos</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

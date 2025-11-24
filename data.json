@@ -1,0 +1,116 @@
+[
+    {
+        "nome": "Fase Lag (Fase de Adaptação)",
+        "descrição": "Na fase lag, as células acabam de entrar no meio de cultura e ainda não estão prontas para se dividir. Elas passam por um período de adaptação, ajustando seu metabolismo, reparando possíveis danos e produzindo enzimas necessárias para usar o novo substrato. O crescimento é muito lento ou praticamente nulo, mas a atividade metabólica é alta."
+    },
+    {
+        "nome": "Fase Exponencial (Log)",
+        "descrição": "A fase exponencial é o período em que as células crescem no ritmo máximo. Cada célula se divide em intervalos constantes, e a população aumenta de forma exponencial. As condições do meio ainda são favoráveis: há substrato suficiente, baixa toxicidade e espaço para multiplicação. Nesta fase, é possível calcular taxa específica de crescimento (µ) e tempo de geração."
+    },
+    {
+        "nome": "Fase Estacionária",
+        "descrição": "Na fase estacionária, o crescimento da população microbiana desacelera e atinge um platô. Isso ocorre porque a taxa de divisão celular se equilibra com a taxa de morte celular. Os nutrientes começam a se esgotar e há um acúmulo de produtos metabólicos tóxicos, limitando o crescimento."
+    },
+    {
+        "nome": "Fase de Morte (ou Declínio)",
+        "descrição": "A fase de morte é caracterizada por um declínio no número de células viáveis. As condições ambientais se tornam fortemente desfavoráveis, com esgotamento severo de nutrientes e acúmulo excessivo de subprodutos tóxicos. A taxa de morte celular supera a taxa de crescimento, levando a uma diminuição da população."
+    },
+    {
+        "nome": "Coeficiente de rendimento Yxs",
+        "descrição": "Relação biomassa/substrato. Indica eficiência de crescimento."
+        },
+    {
+        "nome": "Yps (produto por substrato)",
+        "descrição": "Quanto produto é formado por unidade de matéria-prima consumida."
+        },
+    {
+        "nome": "Ypx (produto por biomassa)",
+        "descrição": "Relação entre formação de produto e massa celular."
+        },
+    {
+        "nome": "Produtividade volumétrica (g/L·h)",
+        "descrição": "Parâmetro industrial mais importante para comparar processos."
+        },
+    {
+        "nome": "µmáx (taxa específica máxima de crescimento)",
+        "descrição": "Valor máximo de crescimento obtido na fase exponencial."
+        },
+    {
+        "nome": "Ks (constante de Monod)",
+        "descrição": "Define afinidade ao substrato; quanto menor, mais eficiente."
+        },
+    {
+        "nome": "Batch (batelada)",
+        "descrição": "Tudo é adicionado no início; ciclo fechado."
+    },
+
+    {
+        "nome": "Fed-batch (batelada alimentada)",
+        "descrição": "Alimentação controlada durante o processo; mantém fase log por mais tempo."
+    },
+
+    {
+        "nome": "Batelada contínua",
+        "descrição": "Entrada e saída contínuas; estado estacionário; usado em produção constante."
+    },
+
+    {
+        "nome": "Quimiostato",
+        "descrição": "Processo contínuo com taxa de diluição fixa; µ controlada."
+    },
+    
+    {
+        "nome": "Temperatura",
+        "descrição": "Mantém atividade metabólica ideal; desvio inibe crescimento."
+    },
+
+    {
+        "nome": "pH",
+        "descrição": "Influência direta em enzimas; mantido com ácidos/bases."
+    },
+
+    {
+        "nome": "DO (Oxigênio Dissolvido)",
+        "descrição": "Controlado por aeração e agitação; crítico para microrganismos aeróbios."
+    },
+
+    {
+        "nome": "Agitação (rpm)",
+        "descrição": "Garante transferência de oxigênio e homogeneidade."
+    },  
+    
+    {
+        "nome": "kLa — Coeficiente de Transferência de Oxigênio",
+        "descrição": "Parâmetro chave para processos aeróbios. Mostra capacidade do sistema entregar oxigênio às células."
+    },
+
+    {
+        "nome":"Balanço de massa",
+        "descrição": "Base para estimar consumo de substrato e formação de biomassa."
+    },
+
+    {
+        "nome": "RQ (Quociente Respiratório)",
+        "descrição": "RQ = (mol de CO₂ produzido) / (mol de O₂ consumido). RQ = 1 -> Respiração de carboidratos, RQ < 1 -> Oxidação de lipídios / metabolismo mais oxidativo, RQ > 1 -> Fermentação / produção de metabólitos reduzidos."
+
+    },
+
+    {
+        "nome": "OD600",
+        "descrição": "Método óptico para estimar biomassa."
+
+    },
+        
+    {
+        "nome": "CFU (Unidades Formadoras de Colônia)",
+        "descrição": "Conta células viáveis em placas."
+
+    },
+
+    {
+        "nome": "Biomassa seca",
+        "descrição": "Medição direta da massa celular."
+
+    }
+
+]
